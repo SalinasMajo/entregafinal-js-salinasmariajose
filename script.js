@@ -2,27 +2,27 @@
 const baseDeDatos = [
     {
         id: 1,
-        nombre: 'Patata',
-        precio: 1,
-        imagen: 'patata.jpg'
+        nombre: 'mates',
+        precio: 600,
+        imagen: 'imagenes/mate1.jpg'
     },
     {
         id: 2,
-        nombre: 'Cebolla',
-        precio: 1.2,
-        imagen: 'cebolla.jpg'
+        nombre: 'mates',
+        precio: 500,
+        imagen: 'imagenes/mate2.jpg'
     },
     {
         id: 3,
-        nombre: 'Calabacin',
-        precio: 2.1,
-        imagen: 'calabacin.jpg'
+        nombre: 'mates',
+        precio: 550,
+        imagen: 'imagenes/mates3.jpg'
     },
     {
         id: 4,
-        nombre: 'Fresas',
-        precio: 0.6,
-        imagen: 'fresas.jpg'
+        nombre: 'mates',
+        precio: 620,
+        imagen: 'imagenes/mates4.jpg'
     }
 
 ];
