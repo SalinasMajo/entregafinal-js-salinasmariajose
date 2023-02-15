@@ -16,19 +16,19 @@ const baseDeDatos = [
         id: 3,
         nombre: 'mates',
         precio: 550,
-        imagen: 'imagenes/mates3.jpg'
+        imagen: 'imagenes/mate3.jpg'
     },
     {
         id: 4,
         nombre: 'mates',
         precio: 620,
-        imagen: 'imagenes/mates4.jpg'
+        imagen: 'imagenes/mate4.jpg'
     }
 
 ];
 
 let carrito = [];
-const divisa = '€';
+const divisa = '$';
 const DOMitems = document.querySelector('#items');
 const DOMcarrito = document.querySelector('#carrito');
 const DOMtotal = document.querySelector('#total');
