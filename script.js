@@ -76,7 +76,7 @@ function renderizarProductos() {
  * Evento para añadir un producto al carrito de la compra
  */
 function anyadirProductoAlCarrito(evento) {
-    // Anyadimos el Nodo a nuestro carrito
+    // Añadimos el Nodo a nuestro carrito
     carrito.push(evento.target.getAttribute('marcador'))
     // Actualizamos el carrito 
     renderizarCarrito();
@@ -168,3 +168,15 @@ DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 renderizarProductos();
 renderizarCarrito();
 
+//Boton comprar
+
+const btn = document.querySelector('boton-comprar');
+btn.addEventListener('click', () => {
+
+    Swal.fire({
+        title: 'Felicitaciones',
+        text: 'Haz finalizado tu compra',
+        icon: 'success',
+        confirmButtonText: 'Cool'
+    })
+});
