@@ -170,8 +170,8 @@ renderizarCarrito();
 
 //Boton comprar
 
-const btn = document.querySelector('boton-comprar');
-btn.addEventListener('click', () => {
+const botonComprar = document.querySelector('botonComprar');
+botonComprar.addEventListener('click', () => {
 
     Swal.fire({
         title: 'Felicitaciones',
